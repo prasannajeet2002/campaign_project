@@ -1,0 +1,48 @@
+.event {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 30px;
+    background-color: azure;
+    margin: 1px 0px;
+    border: 1px solid bisque;
+    border-radius:5px;
+    
+    /* margin:5px 0px; */
+  }
+  .event li {
+    width:20%;
+  }
+  .event i{
+    cursor:pointer;
+  }
+  .none{
+    display:none;
+  }
+ .submenu {
+   position:relative;
+   top:0vh;
+   left:90vw;
+   text-transform: capitalize;
+   display: flex;
+   flex-direction: column;
+   cursor:pointer;
+   /* z-index: 999; */
+/* transition: all 1s ease-in-out; */
+ }
+ .submenu .view{
+   width:20vw;
+   color: rgb(119, 244, 41);
+   padding: 5px 0px;
+ }
+ .submenu .edit{
+   color: rgb(29, 245, 212);
+  padding: 5px 0px;
+  width:20vw;
+}
+.submenu .delete{
+  color: rgb(251, 95, 95);
+  padding: 5px 0px;
+  width:20vw;
+}

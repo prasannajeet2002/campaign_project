@@ -1,0 +1,17 @@
+.view_event{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 5rem;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.view_event .title{
+    padding:1rem 0rem;
+}
+.view_event .description{
+    padding:1rem 0rem;
+}
+.view_event .markdown{
+    padding:1rem 0rem;
+}

@@ -1,0 +1,43 @@
+.user{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 10px 5px;
+}
+.user .title{
+    padding: 5px 0px;
+    text-transform: capitalize;
+    font-size:2rem;
+    padding:5px 5px;
+}
+.user .username{ 
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.buttons{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.buttons .btn1 {
+    background-color: rgb(175, 175, 246);
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border:none;
+    margin:0.5rem;
+}
+.buttons .btn2 {
+    background-color: rgb(11, 221, 123);
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border:none;
+    margin:0.5rem;
+}

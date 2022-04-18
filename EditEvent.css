@@ -1,0 +1,38 @@
+.form_container{
+    height:100%;width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    }
+    .new_event{
+        text-transform: capitalize;
+    }
+    .form-group{
+        margin: 2rem 0rem;
+    }
+    .form-control{
+        text-transform: capitalize;
+        height: 10vh;width: 40vw;
+    }
+    .btn3{
+        background-color: rgb(238, 50, 81);
+        color: white;
+        padding: 10px 30px;
+        cursor: pointer;
+        text-transform: capitalize;
+        border:none;
+        margin:0.5rem;
+        font-style: none;
+    }
+    .btn4{
+        background-color: rgb(13, 227, 120);
+        color: white;
+        padding: 10px 30px;
+        cursor: pointer;
+        text-transform: capitalize;
+        border:none;
+        margin:0.5rem;
+        font-style: none;
+    }

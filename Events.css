@@ -1,0 +1,28 @@
+
+.Event_container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    justify-content:center;
+    width: 100vw;
+    margin-bottom:0px;
+    /* justify-content: center; */
+}
+.event_heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 50px;
+    align-items: center;
+    background-color: beige;
+    border: 1px solid rgb(248, 219, 174);
+    border-radius:10px;
+    font-size: 1.5rem;
+  }
+  .event_heading li{
+      width:20%;
+  }
+  .butn{
+      visibility:hidden;
+  }
